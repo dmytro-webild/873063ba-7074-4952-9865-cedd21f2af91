@@ -8,10 +8,9 @@ import FeatureCardTwentyThree from '@/components/sections/feature/FeatureCardTwe
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
-import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
-import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import { Star } from "lucide-react";
+import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 
 export default function LandingPage() {
   return (
@@ -134,6 +133,7 @@ export default function LandingPage() {
       title="Passa a trovarci"
       description="Siamo aperti dal lunedì al venerdì. Passa in Via Lago di Nicito, 34/A per le tue stampe."
       background={{ variant: "animated-grid" }}
+      useInvertedBackground={false}
     />
   </div>
 
